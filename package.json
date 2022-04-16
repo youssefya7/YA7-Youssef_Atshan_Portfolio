@@ -1,5 +1,5 @@
 {
-  "homepage": "https://youssefya7.github.io/YA7-Youssef_Atshan_Portfolio",
+  "homepage": "http://youssefya7.github.io/YA7-Youssef_Atshan_Portfolio",
   "name": "new",
   "version": "0.1.0",
   "private": true,
@@ -11,13 +11,13 @@
     "emailjs": "^3.8.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "react-scripts": "4.0.3",
+    "react-scripts": "5.0.1",
     "web-vitals": "^1.0.1"
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages-d build",
-    "start": "react-scripts cstart",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
